@@ -98,6 +98,7 @@ section{
     height: 45vh;
 }
 p{
+    background-color: chartreuse;
     transform: translateY(50px);
     opacity: 0;
     transition: .1s;
