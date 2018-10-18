@@ -1,0 +1,94 @@
+*{
+    font-family: verdana;
+    list-style: none;
+    
+}
+nav{
+    display: flex;
+    background-color: darkslateblue;
+
+}
+h1{
+    
+
+}
+body{
+    margin:0;
+    background-color: dodgerblue;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: sandybrown;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 3em;
+    width: 14em;
+    text-align: center;
+    background-color: darkblue;
+    margin: 1em;
+    color: aliceblue;
+    margin-bottom: 0;
+    -webkit-border-radius: 1em 0 0 0 ;
+    border-bottom-color: white;
+    border-color: white;
+    border-width: medium;
+    
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+ul:hover h2{
+    opacity: 1;
+    transform: scale(1.3);
+    transition: 0.2s;
+    text-shadow: 2px 2px rgba(0,0,0,0.63);
+}
+ul h2{
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s;
+
+}
+section{
+    display: flex;
+    
+}
+.img2{
+    margin: 1em;
+    height: 50vh;
+    width: 45vw;
+    background-color: azure;
+    border:2px solid black;
+}
+.img3{
+    margin: 1em;
+    height: 50vh;
+    width: 45vw;
+    background-color: azure;
+        border:2px solid black;
+
+}
