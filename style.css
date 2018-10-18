@@ -1,20 +1,64 @@
+
 *{
-    font-family: verdana;
-    list-style: none;
-    
+    font-family: 'krub', sans-serif;
+    list-style: square;  
 }
+.top{
+    position: -webkit-sticky,relative;
+    position: sticky;
+    margin:0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    background: #ffcc00; 
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 10px solid #000000;
+
+}
+.toph2{
+    color: aliceblue;
+    text-decoration:none;
+
+}
+
 nav{
     display: flex;
-    background-color: darkslateblue;
-
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 15vh;
+    width: 100wh;
+    background-color: floralwhite;
+    background-image: url(background2.jpg);
+    background-repeat: repeat-x;
 }
 h1{
-    
+    font-family: lobster;
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline;
 
 }
+.foto1{
+    height: 70vh;
+    width: 100vw;
+    margin: 0;
+    border-top: thick solid  #d9d9d9;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 body{
+    height: 100%;
+    width: 100%;
+    background-image:url(background2.jpg);
     margin:0;
-    background-color: dodgerblue;
+    background-color:floralwhite;
 }
 header{
     display: flex;
@@ -23,24 +67,53 @@ header{
     margin: 0;
     width: 100vw;
     height: 10vh;
-    background-color: sandybrown;
+    background-color: #ffcc00;
+    border-bottom: thick solid  #d9d9d9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 ul{
     display: flex;
     justify-content: center;
     align-content: center;
     height: 3em;
-    width: 14em;
+    width: 16em;
     text-align: center;
-    background-color: darkblue;
     margin: 1em;
+    color: black;
+    margin-bottom: 0px;
+    height: 90%;
+    margin-top: 0px;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        width: 100%;
+}
+
+ul h2{
     color: aliceblue;
-    margin-bottom: 0;
-    -webkit-border-radius: 1em 0 0 0 ;
-    border-bottom-color: white;
-    border-color: white;
-    border-width: medium;
+    margin: 0;
+    height: 90%;
+    width: 100%;
+    transition: 0.3s;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+}
+ul:hover h2{
+    transform: translate(-2,-2)
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-bottom : thick solid  #d9d9d9;
+    transition: .3s;
     
+
+    transition: 0.2s;
 }
 .caja1{
     display: flex;
@@ -48,64 +121,135 @@ ul{
     width: 100vw;
     height: 50vh;
     background-color: black;
-    color: white;
-    
+    color: white;   
 }
-
-li{
+.section2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top: 2em;
 }
-ul:hover{
-    transform: scale(1.05);
-    transition: 0.2s;
-}
-ul:hover h2{
-    opacity: 1;
-    transform: scale(1.3);
-    transition: 0.2s;
-    text-shadow: 2px 2px rgba(0,0,0,0.63);
-}
-ul h2{
-    text-align: center;
-    opacity: 0;
-    transition: 0.2s;
-
-}
-section{
-    display: flex;
-    
-}
-.img2{
+.outfit1{
     margin: 1em;
     height: 50vh;
     width: 45vw;
-    background-color: azure;
+    background-color: white;
     border:2px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
 }
-.img3{
-    margin: 1em;
-    height: 50vh;
-    width: 45vw;
-    background-color: azure;
-    border:2px solid black;
+.bananashort{
+    height: 25vh;
+    
+    bottom: 10px;
+}
+.yellowvans{
+    height: 25vh;
+}
 
+.msg{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
-.img2.2{
+.msg h2{
+    color: blue;
+    height: 5vh;
+    background-color: aliceblue;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+}
+
+.outfit1.1{
     display: flex;
     align-content: flex-end;
     height: 45vh;
-}
-p{
-    background-color: chartreuse;
-    transform: translateY(50px);
-    opacity: 0;
-    transition: .1s;
-}
-.img2:hover .p1{
-    opacity: 1;
-    transform: translateY(0px);
     
 }
+p{
+    font-size: 24px;
+    background-color: #ffcc00;
+    transform: translateY(50px);
+    opacity: 0;
+    text-align: center;
+    transition: 0.1s;
+}
+.outfit1:hover .p1{
+    opacity: 1;
+    transform: translateY(0px);
+    background-color: yellow;
+    
+}
+.outfit2{
+    display: flex;
+    margin: 1em;
+    height: 50vh;
+    width: 45vw;
+    background-color: white;
+    border:2px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
+}
+.outfit2.2{
+    display: flex;
+    
+}
+.camboy{
+    height: 25vh;
+}
+.remeraray{
+    height: 25vh;
+}
+.vansnegro{
+    height: 10vh;
+    
+}
+.outfit2:hover .p2{
+    opacity: 1;
+    transform: translateY(0px);
+    background-color:cadetblue;
+}
+.footercontainer{
+    display: flex;
+    height: 40vh;
+    border-top: thick solid black ;
+        background-color:#ffcc00 ;
+    opacity: .8;
+    
+}
+footer{
+    margin-bottom: 0;
+    height: 100%;
+
+}
+.socialmedia{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    border-right: thick solid black;    
+}
+.socialmedia h2{
+    font-family: lobster;
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline;
+    position: relative;
+    top: 10vh;
+    right: 5vw;
+}
+.fb{
+    height: 4vh;
+}
+.tw{
+    height: 4vh;
+}
+.ig{
+    height: 4vh;
+}
