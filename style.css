@@ -89,6 +89,22 @@ section{
     height: 50vh;
     width: 45vw;
     background-color: azure;
-        border:2px solid black;
+    border:2px solid black;
 
 }
+.img2.2{
+    display: flex;
+    align-content: flex-end;
+    height: 45vh;
+}
+p{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: .1s;
+}
+.img2:hover .p1{
+    opacity: 1;
+    transform: translateY(0px);
+    
+}
+
