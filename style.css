@@ -8,7 +8,7 @@ a{
     text-decoration-line: none;
 }
 .top{
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -351,12 +351,104 @@ form{
     
 }
 .esconderancla{
+    border-top: thick solid black;
     background-color: #ffcc00;
     width: 100%;
-    height: 100px;
+    height: 5vh;
     opacity: .8;
 }
 .pesconder{
-    font-size: 5px;
-    color: beige;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: justify;
+    height: 10px;
+    font-size: 10px;
+    color: white;
+}
+.fail{
+    margin: 1em;
+    height: 50vh;
+}
+h3{
+    text-align: center;
+    font-size: 8vh;
+    height: 10vh;
+    background-color: aliceblue;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+    animation-name: cambiocolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes cambiocolor{
+    0% {color: blue;} 
+    25% {color: mediumvioletred;} 
+    50% {color: greenyellow;} 
+    75% {color: yellow;}
+    100% {color: blue;}
+}
+
+.destacadosimg{
+    display: flex;
+    justify-content: space-around;
+}
+.destacadosimg img{
+    width: 30vw;
+    height: 60vh;
+}
+.contenedord1{
+    display: flex;
+}
+.d1{
+    background-color: floralwhite;
+    width: 30vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+    
+}
+.yeah{
+    margin: 0;
+    color: aliceblue;
+    transform: translateY(0);
+    opacity: 0;
+    text-align: center;
+    transition: 0.1s;
+}
+.d1:hover .yeah{
+    opacity: 1;
+    transform: translateY(-20px);
+    background-color:  #ffcc00;
+}
+.d2{
+    background-color: floralwhite;
+    width: 30vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+    
+}
+
+.d2:hover .yeah{
+    opacity: 1;
+    transform: translateY(-20px);
+    background-color:black;
+}
+.d3{
+    background-color: floralwhite;
+    width: 30vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid black;
+    
+}
+.d3:hover .yeah{
+    opacity: 1;
+    transform: translateY(-20px);
+    background-color:cadetblue;
 }
